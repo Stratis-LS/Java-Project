@@ -2,27 +2,51 @@ package com.project.game.lwjgl3;
 
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
-import com.github.czyzby.autumn.fcs.scanner.DesktopClassScanner;
-import com.github.czyzby.autumn.mvc.application.AutumnApplication;
-import com.project.game.GameMain;
+import com.project.game.Main;
 
-/** Launches the desktop (LWJGL3) application. */
-public class Lwjgl3Launcher {
-    public static void main(String[] args) {
+/**
+ * Classe pour lancer l'application: <code>Lwjgl3Launcher</code>
+ * @author Lucas
+ * @author Fofana
+ * @version 1.0.0
+ */
+public class Lwjgl3Launcher
+{
+    /**
+     * Methode static main
+     * @param args
+     */
+    public static void main(String[] args)
+    {
         if (StartupHelper.startNewJvmIfRequired()) return; // This handles macOS support and helps on Windows.
         createApplication();
     }
 
-    private static Lwjgl3Application createApplication() {
-        return new Lwjgl3Application(new AutumnApplication(new DesktopClassScanner(), GameMain.class),
-            getDefaultConfiguration());
+    /**
+     * Methode static pour creer l'application <code>createApplication</code>
+     * @return Une fenetre avec les parametres definis dans <code>getDefaultConfiguration()</code>
+     */
+    private static Lwjgl3Application createApplication()
+    {
+        return new Lwjgl3Application(new Main(), getDefaultConfiguration());
     }
 
-    private static Lwjgl3ApplicationConfiguration getDefaultConfiguration() {
+    /**
+     * Methode static pour definir les parametres de l'application <code>getDefaultConfiguration</code>
+     * @return Les configurations de l'application (titre, taille, icon, fps, ...)
+     */
+    private static Lwjgl3ApplicationConfiguration getDefaultConfiguration()
+    {
         Lwjgl3ApplicationConfiguration configuration = new Lwjgl3ApplicationConfiguration();
-        configuration.setTitle("Game");
-        configuration.setWindowedMode(GameMain.WIDTH, GameMain.HEIGHT);
-        configuration.setWindowIcon("libgdx128.png", "libgdx64.png", "libgdx32.png", "libgdx16.png");
+
+        configuration.setTitle("Java Project");
+        configuration.setWindowedMode(1280, 720);
+        configuration.setResizable(false);
+        configuration.setWindowIcon("icon/icon128.png", "icon/icon64.png", "icon/icon32.png");
+        configuration.useVsync(true);
+        configuration.setForegroundFPS(60);
+        configuration.setIdleFPS(1);
+
         return configuration;
     }
 }

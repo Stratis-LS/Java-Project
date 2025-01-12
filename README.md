@@ -1,8 +1,8 @@
-# Game
+# Java Project
 
 A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
 
-Project template included launchers with [Autumn](https://github.com/crashinvaders/gdx-lml/tree/master/autumn) class scanners and an [Autumn MVC](https://github.com/czyzby/gdx-lml/tree/master/mvc) application showing usage of Box2D and Controllers libGDX extensions. A simple GUI consisting of several screens and dialogs was provided, including a settings view that allows the players to choose their controls.
+This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
 
 ## Platforms
 

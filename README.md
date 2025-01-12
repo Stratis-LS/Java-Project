@@ -11,8 +11,8 @@
 <H1>Générer un fichier .jar :</H1>
 <p>Builder le fichier avec la commande suivante :</p> 
 
-<p>[<em>En cas de commande non reconnue, utilisez « gradle » au lieu de « ./gradlew », en fonction de la version de Java et/ou du système d’exploitation. Si l'erreur persiste, il est probable que la version de Java soit trop ancienne. </em>]</p>
-
 <p>./gradlew build</p>
+
+<h3><p>[<em>En cas de commande non reconnue, utilisez « gradle » au lieu de « ./gradlew », en fonction de la version de Java et/ou du système d’exploitation. Si l'erreur persiste, il est probable que la version de Java soit trop ancienne. </em>]</p></h3>
 
 <H2>Lien vers le dépôt GitHub</H2> <a href = "https://github.com/Stratis-LS/Java-Project">https://github.com/Stratis-LS/Java-Project</a>

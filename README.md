@@ -2,6 +2,7 @@ Compilation du projet :
 
 Exécutez les commandes suivantes pour compiler le projet :
 javac -d core/bin core/src/*.java
+\n
 javac -d lwjgl3/bin lwjgl3/src/*.java 
 
 Exécution du projet :

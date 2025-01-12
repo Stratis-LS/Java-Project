@@ -1,3 +1,5 @@
+<p>[<em>En cas de commande non reconnue, utilisez « gradle » au lieu de « ./gradlew », en fonction de la version de Java et/ou du système d’exploitation. Si l'erreur persiste, il est probable que la version de Java soit trop ancienne.</em>]</p>
+
 <H1>Compilation du projet</H1>
 <p>Exécutez les commandes suivantes pour compiler le projet :</p>
 
@@ -12,7 +14,5 @@
 <p>Builder le fichier avec la commande suivante :</p> 
 
 <p>./gradlew build</p>
-  
-<p>[<em>En cas de commande non reconnue, utilisez « gradle » au lieu de « ./gradlew », en fonction de la version de Java et/ou du système d’exploitation. Si l'erreur persiste, il est probable que la version de Java soit trop ancienne.</em>]</p>
 
 <H2>Lien vers le dépôt GitHub</H2> <a href = "https://github.com/Stratis-LS/Java-Project">https://github.com/Stratis-LS/Java-Project</a>

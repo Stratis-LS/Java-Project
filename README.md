@@ -1,4 +1,4 @@
-<p>[<em>En cas de commande non reconnue, utilisez « gradle » au lieu de « ./gradlew », en fonction de la version de Java et/ou du système d’exploitation. Si l'erreur persiste, il est probable que la version de Java soit trop ancienne.</em>]</p>
+<p>[<em>En cas d'erreur avec les commandes ci-dessous, utilisez « <B>gradle</B> » au lieu de « <B>./gradlew</B> ». Si l'erreur persiste, il est probable que la version de Java soit trop ancienne.</em>]</p>
 
 <H1>Compilation du projet</H1>
 <p>Exécutez les commandes suivantes pour compiler le projet :</p>

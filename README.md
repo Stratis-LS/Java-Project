@@ -1,11 +1,14 @@
 <H1>Compilation du projet</H1>
 <p>Exécutez les commandes suivantes pour compiler le projet :</p>
 
-<p>javac -d core/bin core/src/*.java</br>
-javac -d lwjgl3/bin lwjgl3/src/*.java </p>
-
+<p>./gradlew core:build lwjgl3:build</p>
 
 <H1>Exécution du projet</H1>
 <p>Lancez le projet avec la commande suivante :</p> 
 
-<p>java -cp lwjg3/bin/main/java com.project.game.lwjgl3.Lwjgl3Launcher</p>
+<p>./gradlew lwjgl3:run</p>
+
+<H1>Générer un fichier .jar :</H1>
+<p>Builder le fichier avec la commande suivante :</p> 
+
+<p>./gradlew build</p>

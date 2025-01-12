@@ -1,4 +1,4 @@
-Compilation du projet :
+<H1>Compilation du projet</H1> :
 
 Exécutez les commandes suivantes pour compiler le projet :
 

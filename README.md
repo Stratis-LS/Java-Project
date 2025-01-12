@@ -8,4 +8,4 @@ javac -d lwjgl3/bin lwjgl3/src/*.java </p>
 <H1>Exécution du projet</H1>
 <p>Lancez le projet avec la commande suivante :</p> 
 
-java -cp lwjg3/bin/main/java com.project.game.lwjgl3.Lwjgl3Launcher
+<p>java -cp lwjg3/bin/main/java com.project.game.lwjgl3.Lwjgl3Launcher</p>

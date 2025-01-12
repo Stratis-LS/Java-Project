@@ -1,33 +1,11 @@
-# Game
+Compilation du projet :
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+Exécutez les commandes suivantes pour compiler le projet :
+javac -d core/bin core/src/*.java
+javac -d lwjgl3/bin lwjgl3/src/*.java 
 
-Project template included launchers with [Autumn](https://github.com/crashinvaders/gdx-lml/tree/master/autumn) class scanners and an [Autumn MVC](https://github.com/czyzby/gdx-lml/tree/master/mvc) application showing usage of Box2D and Controllers libGDX extensions. A simple GUI consisting of several screens and dialogs was provided, including a settings view that allows the players to choose their controls.
+Exécution du projet :
 
-## Platforms
+Lancez le projet avec la commande suivante : 
 
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
-
-## Gradle
-
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
-
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
-
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+java -cp lwjg3/bin/main/java com.project.game.lwjgl3.Lwjgl3Launcher
